@@ -6,6 +6,7 @@ import PrizesSection from "@/components/zynthic/PrizesSection";
 import EventDetails from "@/components/zynthic/EventDetails";
 import DownloadSection from "@/components/zynthic/DownloadSection";
 import CTASection from "@/components/zynthic/CTASection";
+import ContactSection from "@/components/zynthic/ContactSection";
 import FloatingRegister from "@/components/zynthic/FloatingRegister";
 import Footer from "@/components/zynthic/Footer";
 
@@ -19,6 +20,7 @@ const Index = () => (
     <EventDetails />
     <DownloadSection />
     <CTASection />
+    <ContactSection />
     <Footer />
     <FloatingRegister />
   </main>
