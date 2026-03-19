@@ -1,16 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/zynthic/HeroSection";
+import AboutSection from "@/components/zynthic/AboutSection";
+import SkillUpSection from "@/components/zynthic/SkillUpSection";
+import HackathonFlow from "@/components/zynthic/HackathonFlow";
+import PrizesSection from "@/components/zynthic/PrizesSection";
+import EventDetails from "@/components/zynthic/EventDetails";
+import DownloadSection from "@/components/zynthic/DownloadSection";
+import CTASection from "@/components/zynthic/CTASection";
+import FloatingRegister from "@/components/zynthic/FloatingRegister";
+import Footer from "@/components/zynthic/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
-
-const Index = PlaceholderIndex;
+const Index = () => (
+  <main className="min-h-screen bg-background">
+    <HeroSection />
+    <AboutSection />
+    <SkillUpSection />
+    <HackathonFlow />
+    <PrizesSection />
+    <EventDetails />
+    <DownloadSection />
+    <CTASection />
+    <Footer />
+    <FloatingRegister />
+  </main>
+);
 
 export default Index;
