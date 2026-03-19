@@ -4,8 +4,8 @@ import { IndianRupee, Users, UtensilsCrossed, Monitor } from "lucide-react";
 const details = [
   { icon: IndianRupee, text: "Registration Fee: ₹100 per person" },
   { icon: Users, text: "Team Size: Maximum 3 members" },
-  { icon: UtensilsCrossed, text: "Lunch will be provided" },
-  { icon: Monitor, text: "4 rounds (Online), Final round (Offline)" },
+  { icon: UtensilsCrossed, text: "Lunch will be provided for the final participants" },
+  { icon: Monitor, text: "3 rounds (Online), Final round (Offline)" },
 ];
 
 const EventDetails = () => (

@@ -16,6 +16,15 @@ const HeroSection = () => {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.05 }}
+          className="font-display text-base md:text-lg tracking-widest uppercase text-primary/90 mb-2"
+        >
+          EGS Pillay Engineering College
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-muted-foreground text-sm md:text-base tracking-widest uppercase mb-6"
         >

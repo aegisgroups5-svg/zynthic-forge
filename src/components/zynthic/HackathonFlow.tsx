@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const steps = [
   "Team Formation",
-  "Problem Statement Release",
+  "Select Problem Statement",
   "Idea Development",
-  "Prototype Building",
+  "Submit Prototype or Documentation of the Project",
   "Final Presentation",
 ];
 
