@@ -5,7 +5,7 @@ const details = [
   { icon: IndianRupee, text: "Registration Fee: ₹100 per person" },
   { icon: Users, text: "Team Size: Maximum 3 members" },
   { icon: UtensilsCrossed, text: "Lunch will be provided for the final participants" },
-  { icon: Monitor, text: "3 rounds (Online), Final round (Offline)" },
+  { icon: Monitor, text: "2 rounds (Online), Final round (Offline)" },
 ];
 
 const EventDetails = () => (
