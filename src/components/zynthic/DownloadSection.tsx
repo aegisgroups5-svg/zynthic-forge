@@ -22,11 +22,12 @@ const DownloadSection = () => (
         className="flex flex-col sm:flex-row gap-4 justify-center"
       >
         <a
-          href="#"
-          className="inline-flex items-center gap-2 border border-primary/50 text-primary font-semibold px-6 py-3 rounded-xl gold-glow-hover hover:bg-primary/10 transition-colors text-sm"
+          href="/files/Zynthic_Problem_Statements.docx"
+          download="Zynthic_Problem_Statements.docx"
+          className="inline-flex items-center gap-2 border border-primary/50 text-primary font-semibold px-6 py-3 rounded-xl gold-glow-hover hover:bg-primary/10 hover:scale-105 transition-all text-sm"
         >
           <FileText className="w-5 h-5" />
-          Download Problem Statements
+          📄 Get Problem Statements
         </a>
         <a
           href="#"
